@@ -1,0 +1,55 @@
+# Git Ignore for AuraCart Project
+
+# Sensitive information
+backend/.env
+.env
+.env.local
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/venv312/
+.venv/
+env/
+venv/
+ENV/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python-specific
+__pycache__/
+backend/__pycache__/
+backend/agents/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.mypy_cache/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+backend/feedback_store.jsonl
+backend/evaluation_results.csv
+backend/evaluation_results.json
+database/products.db
+backend/products.db
